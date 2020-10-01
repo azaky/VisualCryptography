@@ -85,7 +85,7 @@ public class VC {
                     for (int y = 0; y < height; ++y) {
                         int color[] = new int[3];
                         color[i] = originalChannels[i][x][y];
-                        ImageUtil.setColor(temp, x, y, color, colorModel);
+                        ImageUtil.setColor(temp, x, y, color, "RGB");
                     }
                 }
                 try {
